@@ -4,13 +4,14 @@
     --accent-color:#2196F3;
     --logo-black-color:#000000;
     --text-white-color:#ffffff;
+    --bg-color:#2F303A;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--primaty-text-color);
 }
-
+/* header */
 .logo {
     color: var(--logo-black-color);
 }
@@ -51,3 +52,41 @@ body {
 .auth-nav .link:focus {
     color: var(--accent-color);
 }
+
+/* main */
+ .hero {
+    background-color: var(--bg-color);
+    
+ }
+
+ .hero-title {
+    width: 696px;
+    height: 120px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-white-color);
+ }
+
+ .hero-button {
+    background-color: var(--accent-color);
+    color: var(--text-white-color);
+    cursor: pointer;
+    position: absolute;
+    width: 152;
+    height: 30;
+    left: 724;
+    top: 440;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16;
+    line-height: 30;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+ }
