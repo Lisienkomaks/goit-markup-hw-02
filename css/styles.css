@@ -2,6 +2,8 @@
     --primaty-text-color:#757575;
     --title-text-color:#212121;
     --accent-color:#2196F3;
+    --logo-black-color:#000000;
+    --text-white-color:#ffffff;
 }
 
 body {
@@ -9,11 +11,23 @@ body {
     color: var(--primaty-text-color);
 }
 
+.logo {
+    color: var(--logo-black-color);
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
 .site-nav, .auth-nav {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+}
+
+.list {
+    list-style: none;
 }
 
 .site-nav .link {
