@@ -13,6 +13,12 @@ body {
 }
 /* header */
 .logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
     color: var(--logo-black-color);
 }
 
@@ -65,6 +71,7 @@ body {
     font-size: 44px;
     line-height: 60px;
     text-align: center;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--text-white-color);
  }
@@ -79,7 +86,7 @@ body {
  }
 
 
-
+/* Footer */
 
  .footer-address {
     font-style: normal;
@@ -90,13 +97,13 @@ body {
  }
 
  .address-location {
-
+    color: var(--text-white-color);
  }
 
  .address-mail {
-
+    color: rgba(255, 255, 255, 0.6);
  }
 
  .address-tel {
-    
+    color: rgba(255, 255, 255, 0.6);
  }
