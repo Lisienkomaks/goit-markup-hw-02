@@ -12,6 +12,11 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--primaty-text-color);
 }
+
+.hiden-text {
+    display: none;
+}
+
 /* header */
 .logo {
     font-family: 'Raleway';
@@ -106,9 +111,20 @@ body {
     color: var(--primaty-text-color);
 }
 
+/* work */
+.wokr-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+/* Comand */
 
 /* Footer */
-
  .footer-address {
     background-color: var(--bg-color);
     font-style: normal;
