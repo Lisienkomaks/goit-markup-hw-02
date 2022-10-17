@@ -6,6 +6,7 @@
     --text-white-color:#ffffff;
     --bg-color:#2F303A;
     --address-white-opacity-color:rgba(255, 255, 255, 0.6);
+    --team-color-bg:#F5F4FA;
 }
 
 body {
@@ -122,11 +123,58 @@ body {
     color: var(--title-text-color);
 }
 
-/* Comand */
+/* team */
+.team {
+    background-color: var(--team-color-bg);
+}
 
-/* Footer */
- .footer-address {
+.team-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.person-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.person-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primaty-text-color);
+}
+
+
+/* footer */
+.footer {
     background-color: var(--bg-color);
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--text-white-color);
+}
+
+ .footer-address {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
