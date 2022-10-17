@@ -158,7 +158,6 @@ body {
     color: var(--primaty-text-color);
 }
 
-
 /* footer */
 .footer {
     background-color: var(--bg-color);
@@ -182,14 +181,29 @@ body {
     letter-spacing: 0.03em;
  }
 
- .address-location {
+ .address-location .link {
     color: var(--text-white-color);
  }
 
- .address-mail {
+ .address-location .link:hover,
+ .address-location .link:focus {
+    color: var(--accent-color);
+ }
+
+ .address-mail .link {
     color: var(--address-white-opacity-color)
  }
 
- .address-tel {
+ .address-mail .link:hover,
+ .address-mail .link:focus {
+    color: var(--accent-color);
+ }
+
+ .address-tel .link {
     color: var(--address-white-opacity-color)
+ }
+
+ .address-tel .link:hover,
+ .address-tel .link:focus {
+    color: var(--accent-color);
  }
