@@ -5,6 +5,7 @@
     --logo-black-color:#000000;
     --text-white-color:#ffffff;
     --bg-color:#2F303A;
+    --address-white-opacity-color:rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -101,9 +102,9 @@ body {
  }
 
  .address-mail {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--address-white-opacity-color)
  }
 
  .address-tel {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--address-white-opacity-color)
  }
