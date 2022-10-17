@@ -88,11 +88,22 @@ body {
 
  /* features */
 .features-title {
-
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
 }
 
 .fearures-description{
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--primaty-text-color);
 }
 
 
