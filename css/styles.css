@@ -158,6 +158,27 @@ body {
     color: var(--primaty-text-color);
 }
 
+/* portfolio */
+/* filters */
+.buttons .button {
+    color: var(--title-text-color);
+    background-color: var(--team-color-bg);
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.buttons .button:hover,
+.buttons .button:active {
+    color: var(--text-white-color);
+    background-color: var(--accent-color);
+}
+
+
 /* footer */
 .footer {
     background-color: var(--bg-color);
