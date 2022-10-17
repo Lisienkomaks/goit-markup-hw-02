@@ -11,6 +11,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     color: var(--primaty-text-color);
 }
 
@@ -21,7 +22,6 @@ body {
 /* header */
 .logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -34,7 +34,6 @@ body {
 }
 
 .site-nav, .auth-nav {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -73,7 +72,6 @@ body {
  }
 
  .hero-title {
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -94,7 +92,6 @@ body {
 
  /* features */
 .features-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -104,7 +101,6 @@ body {
 }
 
 .fearures-description{
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -114,7 +110,6 @@ body {
 
 /* work */
 .wokr-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -129,7 +124,6 @@ body {
 }
 
 .team-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -139,7 +133,6 @@ body {
 }
 
 .person-title {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -149,7 +142,6 @@ body {
 }
 
 .person-description {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -163,7 +155,6 @@ body {
     color: var(--title-text-color);
     background-color: var(--team-color-bg);
     cursor: pointer;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -179,7 +170,6 @@ body {
 
 /* portfolio */
 .portfolio-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -188,7 +178,6 @@ body {
 }
 
 .portfolio-description {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -205,7 +194,6 @@ body {
 
 .footer-logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -214,7 +202,6 @@ body {
 }
 
  .footer-address {
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
